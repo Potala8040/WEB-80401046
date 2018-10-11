@@ -1,0 +1,26 @@
+<table style="width: 800px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="left" valign="top"><span>亲爱的{$client_last_name}：</span></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<br /> 
+<strong><span style="font-family: arial, helvetica, sans-serif;">工单关闭通知。</span></strong> 
+<br /> 
+<br />距您上次回复已经超过{$ticket_auto_close_time}个小时。
+<br />当您超过{$ticket_auto_close_time}个小时未回复本工单时系统将判定问题已经解决，
+<br />所以我们已经将#{$ticket_id}的状态更改为已关闭，除非您重新回复激活它。
+<br />
+<br />工单标题: {$ticket_subject}
+<br />工单部门: {$ticket_department}
+<br />工单级别: {$ticket_priority}
+<br />工单状态: {$ticket_status}
+<br /> 
+<br /> 
+<br /> 
+<br />{$signature} 
+<br /><br /></td>
+</tr>
+</tbody>
+</table>
