@@ -4,55 +4,49 @@
 <td align="left" valign="top"><span>亲爱的用户{$client_last_name}：</span></td>
 </tr>
 <tr>
-<td align="left" valign="top"><br /> 
-<strong><span style="font-family: arial, helvetica, sans-serif;">您的虚拟主机已开通，详细信息如下：</span></strong> 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>服务编号</strong></span>：QRWL-S{$service_id}
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>节点编号</strong></span>：{$service_server_name}
+<td align="left" valign="top"><br />
+<strong><span style="font-family: arial, helvetica, sans-serif;">您的服务已经开通，详细信息如下：</span></strong> 
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<strong>服务编号</strong></span>：QRWL-S{$service_id} 
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<strong>节点编号</strong></span>：{$service_server_name} 
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>产品名称</strong></span>：{$service_product_name} 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>产品类型</strong></span>：Linux平台-PHP，Easypanel 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>产品链接</strong></span>：<a href="https://www.qiangren.net/html/active/vhost-free/">https://www.qiangren.net/html/active/vhost-free/</a>
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>登陆账号</strong></span>：{$client_email}
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>登陆密码</strong></span>：(隐藏)如忘记密码可通过控制台取回
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>面板地址</strong></span>：<a href="https://console.cloud.qiangidc.net">https://console.cloud.qiangidc.net</a>
-<br /><span style="font-family: arial, helvetica, sans-serif;">
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<strong>登陆账号</strong></span>：{$client_email} 
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<strong>面板地址</strong></span>：<a href="{$whmcs_url}">{$whmcs_url}</a>
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
 <strong>首付金额</strong></span>：{$service_first_payment_amount}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>定期金额</strong></span>：{$service_recurring_amount}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>结算周期</strong></span>：系统每月自动延期，循环延期次数为12次，即循环延期12个月。
+<strong>结算周期</strong></span>：{$service_billing_cycle}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>到期时间</strong></span>：12个月以后
-<br />
-<br />主机WEB信息：
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>赠送域名</strong></span>：<a href="http://{$service_username}.{$service_ns3}">http://{$service_username}.{$service_ns3}</a> (仅限临时使用，请尽快绑定自有域名)
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>解析地址</strong></span>：{$service_username}.{$service_ns2} (自有域名的CNAME解析地址)
-<br />
-<br />主机FTP信息：
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>连接地址</strong></span>：当前产品可以使用网页版本的FTP 控制面板中的文件管理功能 支持在线解压，压缩
-<br />
-<br />主机SQL信息：
-<br /><span style="font-family: arial, helvetica, sans-serif;">
+<strong>到期时间</strong></span>：{$service_next_due_date}
+<br /> 
+<br />主机WEB信息： 
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<strong>赠送域名</strong></span>：<a href="http://{$service_username}.{$service_ns3}">http://{$service_username}.{$service_ns3}</a>
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<strong>解析地址</strong></span>：{$service_username}.{$service_ns2}(自有域名的CNAME解析地址) 
+<br /> 
+<br />主机FTP信息： 
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
+<strong>连接地址</strong></span>：共享型产品仅提供网页版本的FTP 控制面板中的文件管理功能 支持在线解压，压缩 
+<br /> 
+<br />主机SQL信息： 
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
 <strong>连接地址</strong></span>：localhost
-<br /><span style="font-family: arial, helvetica, sans-serif;">
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
 <strong>连接端口</strong></span>：3306
-<br /><span style="font-family: arial, helvetica, sans-serif;">
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
 <strong>用户名称</strong></span>：{$service_username}
-<br /><span style="font-family: arial, helvetica, sans-serif;">
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
 <strong>数据库名</strong></span>：{$service_username}
-<br /><span style="font-family: arial, helvetica, sans-serif;">
+<br /><span style="font-family: arial, helvetica, sans-serif;"> 
 <strong>用户密码</strong></span>：{$service_password}
-<br />
+<br /> 
 <span>----------------------------------------------</span>
 <br />域名绑定提示： 
 <br />我们建议您使用CNAME的方式解析您的域名，

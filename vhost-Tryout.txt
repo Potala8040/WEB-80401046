@@ -5,15 +5,7 @@
 </tr>
 <tr>
 <td align="left" valign="top"><br /> 
-<strong><span style="font-family: arial, helvetica, sans-serif;">您申请的试用产品已开通，详细信息如下：</span></strong> 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>试用产品</strong></span>：我公司不负责网站的数据备份工作，试用第七天09:00自动删除数据，请自行备份好重要数据。 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>试用产品</strong></span>：请使用系统送的临时域名进行访问，不能绑定自己的域名。 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>试用产品</strong></span>：虚拟主机的硬盘容量会限制到150M，数据库限制到50M。 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>试用产品</strong></span>：FTP功能将被禁用，上传文件请通过控制面板中的文件管理功能上传。 
+<strong><span style="font-family: arial, helvetica, sans-serif;">您的服务已经开通，详细信息如下：</span></strong> 
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>服务编号</strong></span>：QRWL-S{$service_id}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
@@ -21,13 +13,9 @@
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>产品名称</strong></span>：{$service_product_name} 
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>产品类型</strong></span>：Linux平台-PHP，Easypanel 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>登陆账号</strong></span>：{$client_email}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>登陆密码</strong></span>：(隐藏)如忘记密码可通过控制台取回
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>面板地址</strong></span>：<a href="https://console.cloud.qiangidc.net">https://console.cloud.qiangidc.net</a>
+<strong>面板地址</strong></span>：<a href="{$whmcs_url}">{$whmcs_url}</a>
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>首付金额</strong></span>：{$service_first_payment_amount}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
@@ -35,13 +23,13 @@
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>结算周期</strong></span>：试用产品，可升级，无法续费。 
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>到期时间</strong></span>：产品开通第七天09:00自动删除，请做好重要数据备份。 
+<strong>到期时间</strong></span>：产品开通第七天04:00自动删除，请做好重要数据备份。 
 <br />
 <br />主机WEB信息：
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>赠送域名</strong></span>：<a href="http://{$service_username}.{$service_ns3}">http://{$service_username}.{$service_ns3}</a> (仅限临时使用，请尽快绑定自有域名)
+<strong>赠送域名</strong></span>：<a href="http://{$service_username}.{$service_ns3}">http://{$service_username}.{$service_ns3}</a>
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>解析地址</strong></span>：{$service_username}.{$service_ns2} (自有域名的CNAME解析地址)
+<strong>解析地址</strong></span>：{$service_username}.{$service_ns2}(自有域名的CNAME解析地址)
 <br />
 <br />主机FTP信息：
 <br /><span style="font-family: arial, helvetica, sans-serif;">
@@ -49,7 +37,7 @@
 <br />
 <br />主机SQL信息：
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>连接地址</strong></span>：localhost 
+<strong>连接地址</strong></span>：localhost
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>连接端口</strong></span>：3306
 <br /><span style="font-family: arial, helvetica, sans-serif;">

@@ -5,7 +5,7 @@
 </tr>
 <tr>
 <td align="left" valign="top"><br /> 
-<strong><span style="font-family: arial, helvetica, sans-serif;">您的虚拟主机已开通，详细信息如下：</span></strong> 
+<strong><span style="font-family: arial, helvetica, sans-serif;">您的服务已经开通，详细信息如下：</span></strong> 
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>服务编号</strong></span>：QRWL-S{$service_id}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
@@ -13,13 +13,9 @@
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>产品名称</strong></span>：{$service_product_name} 
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>产品类型</strong></span>：Linux平台-PHP，Easypanel 
-<br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>登陆账号</strong></span>：{$client_email}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>登陆密码</strong></span>：(隐藏)如忘记密码可通过控制台取回
-<br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>面板地址</strong></span>：<a href="https://console.cloud.qiangidc.net">https://console.cloud.qiangidc.net</a>
+<strong>面板地址</strong></span>：<a href="{$whmcs_url}">{$whmcs_url}</a>
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>首付金额</strong></span>：{$service_first_payment_amount}
 <br /><span style="font-family: arial, helvetica, sans-serif;">
@@ -31,9 +27,9 @@
 <br />
 <br />主机WEB信息：
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>赠送域名</strong></span>：<a href="http://{$service_username}.{$service_ns3}">http://{$service_username}.{$service_ns3}</a> (仅限临时使用，请尽快绑定自有域名)
+<strong>赠送域名</strong></span>：<a href="http://{$service_username}.{$service_ns3}">http://{$service_username}.{$service_ns3}</a>
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>解析地址</strong></span>：{$service_username}.{$service_ns2} (自有域名的CNAME解析地址)
+<strong>解析地址</strong></span>：{$service_username}.{$service_ns2}(自有域名的CNAME解析地址)
 <br />
 <br />主机FTP信息：
 <br /><span style="font-family: arial, helvetica, sans-serif;">
@@ -47,7 +43,7 @@
 <br />
 <br />主机SQL信息：
 <br /><span style="font-family: arial, helvetica, sans-serif;">
-<strong>连接地址</strong></span>：localhost 
+<strong>连接地址</strong></span>：localhost
 <br /><span style="font-family: arial, helvetica, sans-serif;">
 <strong>连接端口</strong></span>：3306
 <br /><span style="font-family: arial, helvetica, sans-serif;">
