@@ -1,0 +1,36 @@
+<table style="width: 800px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="left" valign="top"><span>亲爱的用户{$client_last_name}：</span></td>
+</tr>
+<tr>
+<td align="left" valign="top"><br /> 
+<strong><span style="font-family: arial, helvetica, sans-serif;">关于与您终止服务的通知：</span></strong> 
+<br /><span style="font-family: arial, helvetica, sans-serif;">
+<strong>服务编号</strong></span>：QRWL-S{$service_id}
+<br /><span style="font-family: arial, helvetica, sans-serif;">
+<strong>所在节点</strong></span>：{$service_server_name}
+<br /><span style="font-family: arial, helvetica, sans-serif;">
+<strong>产品名称</strong></span>：{$service_product_name}
+<br />
+<br />经过我司慎重考虑，对您进行清退处理。
+<br />由于是我司发起终止服务，所以我司将为您全额退款。
+<br />
+<br />详细原因如下
+<br />在共享节点中的服务是不允许长时间占用系统资源的， 
+<br />共享节点的架构被设计为可以为更多用户以低廉的价格使用， 
+<br />当某一个服务长期占用系统资源时，同节点的其他用户体验会变差， 
+<br />保护每一位用户的体验是我司的首要经营理念与企业责任，希望您理解。 
+<br />
+<br /><span>----------------------------------------------</span>
+<br />请您尽快备份服务内的数据，
+<br />可登陆虚拟主机控制面板-文件管理-数据备份。
+<br />我司将保存数据至{$service_next_due_date}日
+<br />系统将在{$service_next_due_date}日之后删除所有数据。
+<br />我司财务部门将根据订单信息在2个工作日内将款项原路退回。
+<br />
+<br />{$signature} 
+<br /><br /></td>
+</tr>
+</tbody>
+</table>
